@@ -7,9 +7,9 @@ export default function MovieList() {
             <div className="movie-list-container mx-10 w-full">
                 <div className="movie-item w-52 h-72 bg-zinc-500">
                     <img src="" alt="Movie Poster" />
-                    <h3 className="movie-title"></h3>
-                    <p className="movie-rate"></p>
-                    <p className="movie-date"></p>
+                    <h3 className="movie-title">X</h3>
+                    <p className="movie-rate">8.5</p>
+                    <p className="movie-date">10-10-2010</p>
                 </div>
             </div>
         </article>
