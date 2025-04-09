@@ -21,6 +21,15 @@ export const getMovieNowPlaying = async () => {
     return response.data.results
 }
 
+export const getToprated = async (timeWindow = "day") => {
+    const response = await axios.get(`${baseurl}/tv/popular`, {
+        params: {
+            api_key: apiKey
+        }
+    })
+    return response.data.results
+}
+
 export const searchMovie = async () => {
     const search = await axios.get(q)
     return search.data.results
